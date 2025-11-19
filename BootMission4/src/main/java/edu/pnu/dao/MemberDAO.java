@@ -6,7 +6,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +20,7 @@ public class MemberDAO {
 	Statement stmt;
 	PreparedStatement psmt;
 	ResultSet rs;
+	boolean success = false;
 	
 	public MemberDAO() {
 		try	{
@@ -51,10 +54,18 @@ public class MemberDAO {
 				dto.setRegidate(rs.getDate("regidate"));
 				list.add(dto);
 			}
+			success = true;
 		} 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Map<String, Object> map = new HashMap<>();
+		map.put("method", "GET");
+		map.put("sqlstring", query);
+		map.put("success", success);
+		LogDAO logDAO = new LogDAO();
+		logDAO.addLog(map);
 
 		return list;
 	}
@@ -73,12 +84,20 @@ public class MemberDAO {
 				dto.setPass(rs.getString("pass"));
 				dto.setName(rs.getString("name"));
 				dto.setRegidate(rs.getDate("regidate"));
-
 			}
+			success = true;
 		} 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Map<String, Object> map = new HashMap<>();
+		String sqlstring = "SELECT * FROM member WHERE id = " + id;
+		map.put("method", "GET By Id");
+		map.put("sqlstring", sqlstring);
+		map.put("success", success);
+		LogDAO logDAO = new LogDAO();
+		logDAO.addLog(map);
 
 		return dto;
 	}
@@ -91,10 +110,19 @@ public class MemberDAO {
 			psmt.setString(1, memberDTO.getPass());
 			psmt.setString(2, memberDTO.getName());			
 			psmt.executeUpdate();
+			success = true;
 		} 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Map<String, Object> map = new HashMap<>();
+		String sqlstring = "INSERT INTO member(pass, name, regidate) VALUES (" + memberDTO.getPass() + ", " + memberDTO.getName() +", now())";
+		map.put("method", "POST");
+		map.put("sqlstring", sqlstring);
+		map.put("success", success);
+		LogDAO logDAO = new LogDAO();
+		logDAO.addLog(map);
 
 		return memberDTO;
 	}
@@ -108,10 +136,19 @@ public class MemberDAO {
 			psmt.setString(2, memberDTO.getName());
 			psmt.setInt(3, id);
 			psmt.executeUpdate();
+			success = true;
 		} 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Map<String, Object> map = new HashMap<>();
+		String sqlstring = "UPDATE member SET pass = " + memberDTO.getPass() + ", name = " + memberDTO.getName() + ", regidate = now() WHERE id = " + id;
+		map.put("method", "PUT");
+		map.put("sqlstring", sqlstring);
+		map.put("success", success);
+		LogDAO logDAO = new LogDAO();
+		logDAO.addLog(map);
 
 		return memberDTO;
 	}
@@ -139,10 +176,26 @@ public class MemberDAO {
 				psmt.setInt(2, id);
 			}
 			psmt.executeUpdate();
+			success = true;
 		}
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		
+		Map<String, Object> map = new HashMap<>();
+		map.put("method", "PATCH");
+		if(memberDTO.getPass() != null ) {
+			String sqlstring = "UPDATE member SET pass = " + memberDTO.getPass() + ", regidate = now() WHERE id = " + id;
+			map.put("sqlstring", sqlstring);
+		}
+		else if(memberDTO.getName() != null) {
+			String sqlstring = "UPDATE member SET name = " + memberDTO.getName() + ", regidate = now() WHERE id = " + id;
+			map.put("sqlstring", sqlstring);
+		}
+		map.put("success", success);
+		LogDAO logDAO = new LogDAO();
+		logDAO.addLog(map);
 
 		return memberDTO;
 	}
@@ -154,10 +207,19 @@ public class MemberDAO {
 			// 쿼리 실행
 			psmt = con.prepareStatement(query);
 			psmt.setInt(1, id);
-			psmt.executeUpdate();		
+			psmt.executeUpdate();
+			success = true;
 		} 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Map<String, Object> map = new HashMap<>();
+		String sqlstring = "DELETE FROM member WHERE id = " + id;
+		map.put("method", "DELETE");
+		map.put("sqlstring", sqlstring);
+		map.put("success", success);
+		LogDAO logDAO = new LogDAO();
+		logDAO.addLog(map);
 	}
 }

@@ -32,13 +32,13 @@ public class LogDAO {
 	}
 	
 	public void addLog(Map<String, Object> map) {	
-		String query = "INSERT INTO (method, sqlstring, regidate, success) VALUES (?, ?, now(), ?)";
+		String query = "INSERT INTO dblog (method, sqlstring, regidate, success) VALUES (?, ?, now(), ?)";
 		
 		try {
 			psmt = con.prepareStatement(query);
-			psmt.setString(1, "");
-			psmt.setString(2, "");
-			psmt.setBoolean(3, false);
+			psmt.setString(1, (String) map.get("method"));
+			psmt.setString(2, (String) map.get("sqlstring"));
+			psmt.setBoolean(3, (boolean) map.get("success"));
 			psmt.executeUpdate();
 		}
 		catch(Exception e) {
