@@ -1,0 +1,137 @@
+2025-11-25T16:30:06.236+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:30:06.236+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:30:06.236+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:30:06.334+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:30:06.334+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:30:06.334+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:30:06.344+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 105 ms
+2025-11-25T16:30:06.388+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:30:06.390+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.186 seconds (process running for 7.25)
+2025-11-25T16:30:06.390+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:30:06.390+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:30:06.390+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:30:06.390+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:30:06.391+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:30:11.901+09:00  INFO 19356 --- [Chapter03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-25T16:30:11.902+09:00  INFO 19356 --- [Chapter03] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:30:11.904+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:30:11.976+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:30:11.976+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:30:11.977+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:30:12.064+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:30:12.065+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:30:12.065+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:30:12.075+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 97 ms
+2025-11-25T16:30:12.111+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:30:12.113+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.158 seconds (process running for 12.974)
+2025-11-25T16:30:12.114+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:30:12.114+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:30:12.114+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:30:12.114+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:30:12.114+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:30:14.556+09:00  INFO 19356 --- [Chapter03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-25T16:30:14.557+09:00  INFO 19356 --- [Chapter03] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:30:14.559+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:30:14.622+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:30:14.622+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:30:14.623+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:30:14.705+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:30:14.706+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:30:14.706+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:30:14.715+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 91 ms
+2025-11-25T16:30:14.751+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:30:14.752+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.147 seconds (process running for 15.613)
+2025-11-25T16:30:14.753+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:30:14.753+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:30:14.753+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:30:14.753+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:30:14.753+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:30:19.241+09:00  INFO 19356 --- [Chapter03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-25T16:30:19.242+09:00  INFO 19356 --- [Chapter03] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:30:19.244+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:30:19.306+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:30:19.306+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:30:19.306+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:30:19.383+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:30:19.384+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:30:19.385+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:30:19.394+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 87 ms
+2025-11-25T16:30:19.427+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:30:19.429+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.14 seconds (process running for 20.289)
+2025-11-25T16:30:19.429+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:30:19.429+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:30:19.429+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:30:19.429+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:30:19.430+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:30:25.953+09:00  INFO 19356 --- [Chapter03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-25T16:30:25.954+09:00  INFO 19356 --- [Chapter03] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:30:25.955+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:30:26.019+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:30:26.019+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:30:26.019+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:30:26.096+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:30:26.097+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:30:26.097+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:30:26.106+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 85 ms
+2025-11-25T16:30:26.138+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:30:26.139+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.136 seconds (process running for 26.999)
+2025-11-25T16:30:26.139+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:30:26.139+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:30:26.139+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:30:26.139+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:30:26.140+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:30:32.678+09:00  INFO 19356 --- [Chapter03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-25T16:30:32.679+09:00  INFO 19356 --- [Chapter03] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:30:32.681+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:30:32.742+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:30:32.742+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:30:32.743+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:30:32.816+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:30:32.816+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:30:32.816+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:30:32.825+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 81 ms
+2025-11-25T16:30:32.859+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:30:32.860+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.133 seconds (process running for 33.72)
+2025-11-25T16:30:32.860+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:30:32.860+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:30:32.860+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:30:32.861+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:30:32.861+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:43:35.327+09:00  INFO 19356 --- [Chapter03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-25T16:43:35.328+09:00  INFO 19356 --- [Chapter03] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:43:35.329+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:43:35.397+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 21.0.9 with PID 19356 (C:\workspace_sts4\Chapter03\target\classes started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:43:35.398+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:43:35.398+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:43:35.483+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-25T16:43:35.484+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:43:35.484+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:43:35.494+09:00  INFO 19356 --- [Chapter03] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 95 ms
+2025-11-25T16:43:35.540+09:00  INFO 19356 --- [Chapter03] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T16:43:35.542+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.162 seconds (process running for 816.402)
+2025-11-25T16:43:35.542+09:00 DEBUG 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:43:35.542+09:00  INFO 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:43:35.542+09:00  WARN 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:43:35.542+09:00 ERROR 19356 --- [Chapter03] [restartedMain] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:43:35.543+09:00  INFO 19356 --- [Chapter03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T16:53:19.719+09:00  INFO 19356 --- [Chapter03] [RMI TCP Connection(39)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-25T16:53:19.720+09:00  INFO 19356 --- [Chapter03] [RMI TCP Connection(39)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:53:19.722+09:00  INFO 19356 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-25T16:57:17.592+09:00  INFO 3332 --- [Chapter03] [main] com.rubypaper.BoardControllerTest        : Starting BoardControllerTest using Java 21.0.9 with PID 3332 (started by user in C:\workspace_sts4\Chapter03)
+2025-11-25T16:57:17.593+09:00 DEBUG 3332 --- [Chapter03] [main] com.rubypaper.BoardControllerTest        : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-25T16:57:17.593+09:00  INFO 3332 --- [Chapter03] [main] com.rubypaper.BoardControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T16:57:18.171+09:00  INFO 3332 --- [Chapter03] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2025-11-25T16:57:18.183+09:00  INFO 3332 --- [Chapter03] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T16:57:18.184+09:00  INFO 3332 --- [Chapter03] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-25T16:57:18.228+09:00  INFO 3332 --- [Chapter03] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 621 ms
+2025-11-25T16:57:18.604+09:00  INFO 3332 --- [Chapter03] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 49399 (http) with context path '/'
+2025-11-25T16:57:18.608+09:00  INFO 3332 --- [Chapter03] [main] com.rubypaper.BoardControllerTest        : Started BoardControllerTest in 1.262 seconds (process running for 2.095)
+2025-11-25T16:57:18.610+09:00 DEBUG 3332 --- [Chapter03] [main] com.rubypaper.LoggingRunner              : DEBUG 로그 메시지
+2025-11-25T16:57:18.610+09:00  INFO 3332 --- [Chapter03] [main] com.rubypaper.LoggingRunner              : INFO 로그 메시지
+2025-11-25T16:57:18.610+09:00  WARN 3332 --- [Chapter03] [main] com.rubypaper.LoggingRunner              : WARN 로그 메시지
+2025-11-25T16:57:18.610+09:00 ERROR 3332 --- [Chapter03] [main] com.rubypaper.LoggingRunner              : ERROR 로그 메시지
+2025-11-25T16:57:19.198+09:00  INFO 3332 --- [Chapter03] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25T16:57:19.199+09:00  INFO 3332 --- [Chapter03] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-25T16:57:19.200+09:00  INFO 3332 --- [Chapter03] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-25T16:57:19.341+09:00  INFO 3332 --- [Chapter03] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T16:57:19.344+09:00  INFO 3332 --- [Chapter03] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
